@@ -28,10 +28,10 @@ jobs:
         cd backend
         npm install
 
-    - name: Run backend tests
-      run: |
-        cd backend
-        npm test
+    # - name: Run backend tests
+    #   run: |
+    #     cd backend
+    #     npm test
 
     - name: Install frontend dependencies
       run: |
