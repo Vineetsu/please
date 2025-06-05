@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { DonationsList } from '@/components/donations/DonationsList';
-import { MapPlaceholder } from '@/components/map/MapPlaceholder';
+// Removed MapPlaceholder import
+import { CharityMap } from '@/components/map/CharityMap'; // Import your new map component
 import { useDonations } from '@/contexts/DonationsContext';
 
 const Home = () => {
@@ -35,7 +36,7 @@ const Home = () => {
             </div>
             <div className="lg:relative lg:h-96">
               <img
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
                 alt="People distributing food"
                 className="rounded-lg shadow-xl object-cover w-full h-full"
               />
@@ -43,7 +44,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
       {/* How It Works Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,7 +54,7 @@ const Home = () => {
               Our platform makes it easy to connect surplus food with those who need it most.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="mx-auto h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
@@ -64,7 +65,7 @@ const Home = () => {
                 Restaurants and grocery stores list their available surplus food with pickup details.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="mx-auto h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <span className="text-2xl">🔍</span>
@@ -74,7 +75,7 @@ const Home = () => {
                 Charities browse available donations and claim what they need for their community.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="mx-auto h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                 <span className="text-2xl">🚚</span>
@@ -87,7 +88,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Featured Donations Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,11 +98,11 @@ const Home = () => {
               <Button variant="link" className="font-medium">View All</Button>
             </Link>
           </div>
-          
+
           <DonationsList donations={availableDonations} isLoading={isLoading} />
         </div>
       </section>
-      
+
       {/* Map Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,11 +112,12 @@ const Home = () => {
               Use our interactive map to find available food donations near you.
             </p>
           </div>
-          
-          <MapPlaceholder />
+
+          {/* Use CharityMap here instead of MapPlaceholder */}
+          <CharityMap />
         </div>
       </section>
-      
+
       {/* CTA Section */}
       <section className="py-16 bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
