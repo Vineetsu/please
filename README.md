@@ -8,9 +8,7 @@
 
 ## 📸 Screenshots
 
-<img src="front/src/Screenshot 2025-06-19 083540.png" width="350" style="margin-right: 20px;"/> 
-<img src="front/src/Screenshot 2025-06-19 083608.png" width="380"/> 
-<img src="front/src/Screenshot 2025-06-19 083642.png" width="304"/>
+<img src="front/src/Screenshot 2025-06-19 083540.png" width="400"/> <img src="front/src/Screenshot 2025-06-19 083608.png" width="390"/> <img src="front/src/Screenshot 2025-06-19 083642.png" width="304"/>
 
 
 ---
