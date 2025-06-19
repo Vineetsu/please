@@ -1,6 +1,5 @@
 # 🥗 Food Secure Network
 
-![Logo](assets/image1.png) <!-- Small project logo or banner -->
 
 **Food Secure Network** is a web application that bridges the gap between food surplus providers (like restaurants and grocery stores) and local charities/shelters. The goal is to reduce food waste and support communities in need through efficient, real-time coordination.
 
