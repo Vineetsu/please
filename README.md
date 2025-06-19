@@ -8,7 +8,7 @@
 
 ## 📸 Screenshots
 
-<img src="assets/image2.png" width="250"/> <img src="assets/image3.png" width="250"/> <img src="assets/image4.png" width="250"/>
+<img src="front/src/Screenshot 2025-06-19 083540.png" width="250"/> <img src="assets/image3.png" width="250"/> <img src="assets/image4.png" width="250"/>
 
 ---
 
