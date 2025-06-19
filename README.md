@@ -8,9 +8,11 @@
 
 ## 📸 Screenshots
 
-<img src="front/src/Screenshot 2025-06-19 083540.png" width="400"/> <img src="front/src/Screenshot 2025-06-19 083608.png" width="390" height="181" style="margin-right: 20px;"/> <img src="front/src/Screenshot 2025-06-19 083642.png" width="402"/>
+<img src="front/src/Screenshot 2025-06-19 083540.png" width="401"/> <img src="front/src/Screenshot 2025-06-19 083608.png" width="390" height="181" style="margin-right: 20px;"/> <img src="front/src/Screenshot 2025-06-19 083642.png" width="402"/> <img src="front/src/Screenshot 2025-06-19 085857.png" width="390"  height="196" style="margin-right: 20px;"/>
 
 
+
+Screenshot 2025-06-19 085857.png
 ---
 
 ## 🌟 Features
