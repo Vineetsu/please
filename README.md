@@ -11,8 +11,39 @@
 
 
 
-Screenshot 2025-06-19 085857.png
+
+
+
 ---
+
+### 📌 How the App Works
+
+- 📝 **Food Providers Register & List Surplus**  
+  Restaurants and grocery stores register and upload details about available surplus food, including type, quantity, and expiry time.
+
+- 📡 **Real-Time Updates**  
+  The app continuously updates the list of available surplus items in real-time using the backend API and database.
+
+- 🤝 **Charity Login & Request**  
+  Registered charities can log in, view available food near them, and place requests based on their needs.
+
+- 🔁 **Matching Engine**  
+  A built-in logic engine matches available food to nearby charities based on location, need, and food type.
+
+- 📊 **Admin Dashboard**  
+  Admin users can manage food listings, user roles, resolve disputes, and view analytics (e.g., total food rescued, active users).
+
+- 🌍 **Bilingual Support [yet to be added]**  
+  Users can toggle between Kannada and English for accessibility and ease of use in local communities.
+
+- 🧺 **Pickup & Record**  
+  Once food is picked up, the status is updated, and a record is stored for transparency and audit.
+
+
+
+---
+
+
 
 ## 🌟 Features
 
@@ -31,15 +62,11 @@ Screenshot 2025-06-19 085857.png
 - **Frontend:** React, Tailwind CSS  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
-- **Deployment:** Render, Docker, Kubernetes  
-- **DevOps Tools:** GitHub Actions, Jenkins, Terraform, Ansible  
+- **Deployment:** Render, Docker, Vercel  
+- **DevOps Tools:** GitHub Actions, Page speed insights  
 
----
 
-## ⚙️ Getting Started
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/Vineetsu/frontend.git
-cd frontend
+
+
